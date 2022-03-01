@@ -25,6 +25,7 @@ import android.util.Log;
 import org.lineageos.settings.popupcamera.PopupCameraUtils;
 import org.lineageos.settings.display.ColorService;
 import org.lineageos.settings.thermal.ThermalUtils;
+import org.lineageos.settings.refreshrate.RefreshUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -37,5 +38,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         PopupCameraUtils.checkPopupCameraService(context);
         ThermalUtils.startService(context);
         ColorService.startService(context);
+        RefreshUtils.startService(context);
     }
 }
