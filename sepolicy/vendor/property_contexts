@@ -48,6 +48,9 @@ ro.vendor.oem.meid                                                              
 ro.vendor.oem.sno                                                                                   u:object_r:vendor_sno_prop:s0
 ro.vendor.oem.psno                                                                                  u:object_r:vendor_sno_prop:s0
 
+# Iwlan
+persist.vendor.iwlan.logging.logcat                                                                 u:object_r:vendor_cnd_vendor_prop:s0
+
 # Mlipay
 persist.vendor.sys.pay                                                                              u:object_r:vendor_tee_listener_prop:s0
 persist.vendor.sys.pay.fido                                                                         u:object_r:vendor_payment_security_prop:s0
