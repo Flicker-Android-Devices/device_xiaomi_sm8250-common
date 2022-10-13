@@ -79,7 +79,8 @@
         <activity
             android:name=".thermal.ThermalActivity"
             android:exported="false"
-            android:label="@string/thermal_title">
+            android:label="@string/thermal_title"
+            android:theme="@style/Theme.SubSettingsBase_v31">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
@@ -98,7 +99,7 @@
             android:name=".display.DisplaySettingsActivity"
             android:label="@string/display_settings_title"
             android:exported="false"
-            android:theme="@style/Theme.SubSettingsBase">
+            android:theme="@style/Theme.SubSettingsBase_v31">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
