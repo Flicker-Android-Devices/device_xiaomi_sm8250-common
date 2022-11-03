@@ -33,3 +33,6 @@ allow vendor_hal_citsensorservice_xiaomi_default vendor_persist_sensors_file:dir
 allow vendor_hal_citsensorservice_xiaomi_default vendor_persist_sensors_file:file rw_file_perms;
 
 allow vendor_hal_citsensorservice_xiaomi_default vendor_diag_device:chr_file rw_file_perms;
+
+# Allow to use wakelock
+wakelock_use(vendor_hal_citsensorservice_xiaomi_default)
