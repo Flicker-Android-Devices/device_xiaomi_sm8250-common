@@ -67,6 +67,9 @@ function blob_fixup() {
         vendor/etc/init/init.mi_thermald.rc)
             sed -i "/seclabel u:r:mi_thermald:s0/d" "${2}"
             ;;
+        vendor/etc/init/vendor.xiaomi.hardware.citsensorservice@1.1-service.rc)
+            sed -i 's/input/& wakelock/' "${2}"
+            ;;
         vendor/etc/media_codecs_kona.xml)
             sed -i "/media_codecs_dolby_audio.xml/d" "${2}"
             ;;
