@@ -162,6 +162,35 @@ endif
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+ifeq ($(TARGET_USES_MIUI_DOLBY),true)
+# Miui Dolby Engine Topic
+# Dolby Sepolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/dolby/private
+BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/dolby/vendor
+
+# Dolby Props
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.dolby.dax.version=DAX3_3.6.1.6_r1 \
+    ro.vendor.audio.dolby.dax.version=DAX3_3.6 \
+    ro.vendor.audio.dolby.dax.support=true \
+    ro.vendor.audio.dolby.surround.enable=true
+
+# Dolby Effects Props
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.audio.delta.refresh=true
+
+# MiSound with Dolby Environment (By Default - Disabled)
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.audio.misound.disable=true \
+    ro.vendor.audio.misound.bluetooth.enable=true
+else
+# MiSound (Dirac Only)
+# MiSound without Dolby (By Default - Enabled)
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.audio.misound.disable=false \
+    ro.vendor.audio.misound.bluetooth.enable=true
+endif
+
 # Display
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer-service
@@ -240,8 +269,14 @@ PRODUCT_PACKAGES += \
 
 # Media configs
 PRODUCT_PACKAGES += \
+    media_codecs_dolby_audio.xml \
     media_codecs_kona.xml \
     media_codecs_performance_kona.xml
+
+# Media C2 Vendor
+PRODUCT_PACKAGES += \
+    libcodec2_hidl@1.0.vendor \
+    libcodec2_soft_common.vendor
 
 # NFC
 PRODUCT_PACKAGES += \
@@ -271,7 +306,9 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefright_softomx \
+    libstagefright_softomx.vendor
 
 # Overlays
 PRODUCT_PACKAGES += \

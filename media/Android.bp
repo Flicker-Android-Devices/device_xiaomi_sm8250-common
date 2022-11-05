@@ -5,6 +5,12 @@
 //
 
 prebuilt_etc {
+    name: "media_codecs_dolby_audio.xml",
+    src: "media_codecs_dolby_audio.xml",
+    vendor: true,
+}
+
+prebuilt_etc {
     name: "media_codecs_kona.xml",
     src: "media_codecs_kona_vendor.xml",
     vendor: true,
