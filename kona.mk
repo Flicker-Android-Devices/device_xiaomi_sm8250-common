@@ -171,6 +171,28 @@ PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed
 USE_DEX2OAT_DEBUG := false
 WITH_DEXPREOPT_DEBUG_INFO := false
 
+ifeq ($(TARGET_USES_MIUI_DOLBY),true)
+# Miui Dolby Engine Topic
+# Dolby Sepolicy
+SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/dolby/private
+BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/dolby/vendor
+
+# Dolby Props
+PRODUCT_VENDOR_PROPERTIES += \
+    ro.vendor.dolby.dax.version=DAX3_3.6.1.6_r1 \
+    ro.vendor.audio.dolby.dax.version=DAX3_3.6 \
+    ro.vendor.audio.dolby.dax.support=true \
+    ro.vendor.audio.dolby.surround.enable=true
+
+# Dolby Effects Props
+PRODUCT_VENDOR_PROPERTIES += \
+    persist.vendor.audio.delta.refresh=true
+
+# Dolby MediaCodecs Loading Support (Overwrites Vendor files)
+PRODUCT_PACKAGES += \
+    media_codecs_dolby_audio.xml
+endif
+
 # Display
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer-service
