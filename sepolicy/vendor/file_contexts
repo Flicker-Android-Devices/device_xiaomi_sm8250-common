@@ -42,6 +42,9 @@
 /mnt/vendor/persist/fpc(/.*)?                                                                       u:object_r:vendor_persist_fingerprint_file:s0
 /mnt/vendor/persist/goodix(/.*)?                                                                    u:object_r:vendor_persist_fingerprint_file:s0
 
+# Fingerprint - UDFPS state
+/sys/touchpanel/fp_state                                                                            u:object_r:vendor_sysfs_sensors:s0
+
 # Hexagon DSP-side executable needed for Halide operation
 # This is labeled as vendor_public_adsprpcd_file as it needs to be read by apps
 # (e.g. Google Camera App)
