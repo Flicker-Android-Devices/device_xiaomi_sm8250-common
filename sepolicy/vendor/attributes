@@ -24,3 +24,8 @@ attribute hal_mtdservice_server;
 attribute hal_tidaservice;
 attribute hal_tidaservice_client;
 attribute hal_tidaservice_server;
+
+# TouchFeature
+attribute hal_touchfeature_xiaomi_default;
+attribute hal_touchfeature_xiaomi_default_client;
+attribute hal_touchfeature_xiaomi_default_server;
