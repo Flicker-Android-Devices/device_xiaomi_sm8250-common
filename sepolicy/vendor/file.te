@@ -24,3 +24,5 @@ type vendor_thermal_data_file, file_type, data_file_type;
 
 # Battery
 type vendor_sysfs_qcom_battery, fs_type, sysfs_type;
+
+type mdm_tombstone_data_file, data_file_type, file_type;
