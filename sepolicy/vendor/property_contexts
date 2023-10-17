@@ -125,3 +125,6 @@ ro.input.resampling                                                             
 viewroot.profile_rendering                                                                          u:object_r:exported_system_prop:s0
 renderthread.skia.reduceopstasksplitting                                                            u:object_r:exported_system_prop:s0
 settingsdebug.instant.packages                                                                      u:object_r:exported_system_prop:s0
+
+# Misc
+persist.hydra.mem_trace	                                                                            u:object_r:exported_system_prop:s0
