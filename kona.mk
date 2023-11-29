@@ -392,6 +392,9 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+PRODUCT_PACKAGES += \
+    libstagefright_foundation-v33
+
 # Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigCommonOverlay \
