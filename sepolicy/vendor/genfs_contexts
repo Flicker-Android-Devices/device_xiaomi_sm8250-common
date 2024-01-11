@@ -1,3 +1,6 @@
+# Battery
+genfscon sysfs /devices/platform/odm/odm:usb_switch/power_supply/usb_switch                         u:object_r:sysfs_battery:s0
+
 # DSP
 genfscon sysfs /kernel/boot_cdsp/boot                                                               u:object_r:sysfs_msm_boot:s0
 
