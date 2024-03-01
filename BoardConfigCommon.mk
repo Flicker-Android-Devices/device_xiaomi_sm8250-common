@@ -227,6 +227,9 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
      $(COMMON_PATH)/dolby/manifests/dolby_framework_matrix.xml
 endif
 
+# Vulkan
+TARGET_USES_VULKAN := true
+
 # Wi-Fi
 BOARD_WLAN_DEVICE := qcwcn
 BOARD_HOSTAPD_DRIVER := NL80211
