@@ -24,6 +24,7 @@ import android.content.IntentFilter;
 import android.util.Log;
 
 import org.lineageos.settings.popupcamera.PopupCameraUtils;
+import org.lineageos.settings.display.ColorService;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.utils.FileUtils;
 import android.content.SharedPreferences;
@@ -43,6 +44,7 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         if (DEBUG) Log.d(TAG, "Received boot completed intent");
         PopupCameraUtils.checkPopupCameraService(context);
         ThermalUtils.startService(context);
+        ColorService.startService(context);
         // DC Dimming
         SharedPreferences sharedPrefs = PreferenceManager.getDefaultSharedPreferences(context);
 
