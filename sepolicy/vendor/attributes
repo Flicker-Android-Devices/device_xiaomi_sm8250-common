@@ -3,6 +3,11 @@ attribute hal_mfidoca;
 attribute hal_mfidoca_client;
 attribute hal_mfidoca_server;
 
+# Displayfeature
+attribute vendor_hal_displayfeature_xiaomi;
+attribute vendor_hal_displayfeature_xiaomi_client;
+attribute vendor_hal_displayfeature_xiaomi_server;
+
 #attribute hal_mlipay;
 #attribute hal_mlipay_client;
 #attribute hal_mlipay_server;
