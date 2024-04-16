@@ -24,6 +24,7 @@ import android.content.IntentFilter;
 import android.util.Log;
 
 import org.lineageos.settings.dirac.DiracUtils;
+import org.lineageos.settings.display.ColorService;
 import org.lineageos.settings.thermal.ThermalUtils;
 import org.lineageos.settings.refreshrate.RefreshUtils;
 import org.lineageos.settings.utils.FileUtils;
@@ -58,5 +59,6 @@ public class BootCompletedReceiver extends BroadcastReceiver {
         FileUtils.writeLine(DC_DIMMING_NODE, dcDimmingEnabled ? "1" : "0");
         boolean hbmEnabled = sharedPrefs.getBoolean(HBM_ENABLE_KEY, false);
         FileUtils.writeLine(HBM_NODE, hbmEnabled ? "1" : "0");
+        ColorService.startService(context);
     }
 }
