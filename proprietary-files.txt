@@ -27,6 +27,9 @@ vendor/lib/libsurround_3mic_proc.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
 
+# Audio FX modules (Spatial Audio) - from cheetah-user 14 AP2A.240605.024
+vendor/lib/soundfx/libspatialaudio.so|ea260b5527342ead4e2975bcbd482f997b13e17e
+
 # Audio FX AudioSphere
 system_ext/etc/permissions/audiosphere.xml
 system_ext/framework/audiosphere.jar
