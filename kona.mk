@@ -186,6 +186,9 @@ endif
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# Dexpreopt
+PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := speed
+
 # Display
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.composer-service
