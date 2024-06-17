@@ -215,6 +215,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libstagefright_foundation-v33
+
+# XiaomiDolby
+PRODUCT_PACKAGES += \
+    XiaomiDolby
 endif
 
 # Display
