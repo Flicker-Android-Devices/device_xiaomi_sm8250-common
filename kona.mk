@@ -191,6 +191,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Dolby MediaCodecs Loading Support (Overwrites Vendor files)
 PRODUCT_PACKAGES += \
     media_codecs_dolby_audio.xml
+
+# XiaomiDolby
+PRODUCT_PACKAGES += \
+    XiaomiDolby
 endif
 
 # Display
