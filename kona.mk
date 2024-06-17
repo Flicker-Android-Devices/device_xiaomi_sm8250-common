@@ -183,6 +183,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.audio.misound.disable=true \
     ro.vendor.audio.misound.bluetooth.enable=true
+
+# XiaomiDolby
+PRODUCT_PACKAGES += \
+    XiaomiDolby
 else
 # MiSound (Dirac Only)
 # MiSound without Dolby (By Default - Enabled)
