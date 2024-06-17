@@ -230,6 +230,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 # Dolby Effects Props
 PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.audio.delta.refresh=true
+
+# XiaomiDolby
+PRODUCT_PACKAGES += \
+    XiaomiDolby
 endif
 
 # DRM
