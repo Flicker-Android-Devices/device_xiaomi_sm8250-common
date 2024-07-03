@@ -100,6 +100,12 @@ genfscon sysfs /devices/platform/soc/884000.i2c/i2c-4/4-0055/wakeup             
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-4/4-0065/power_supply/bq2597x-master/wakeup                                                    u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-4/4-0065/wakeup                                                                                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-4/4-0066/power_supply/bq2597x-slave/wakeup                                                     u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/884000.i2c/i2c-4/4-0051/power_supply/bq2597x-master/wakeup47                                                  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-3/3-0051/power_supply/bq2597x-slave/wakeup45                                                   u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-3/3-0051/wakeup/wakeup46                                                                       u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/884000.i2c/i2c-4/4-0051/wakeup/wakeup48                                                                       u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/884000.i2c/i2c-4/4-0055/wakeup/wakeup43                                                                       u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/884000.i2c/i2c-4/4-0055/power_supply/bms/wakeup44                                                             u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-4/4-0066/power_supply/bq2597x-standalone/wakeup                                                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-4/4-0066/wakeup                                                                                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/884000.i2c/i2c-4/4-006b/power_supply/bbc/wakeup                                                               u:object_r:sysfs_wakeup:s0
