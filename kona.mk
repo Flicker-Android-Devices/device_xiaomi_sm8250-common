@@ -336,6 +336,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/xiaomi \
     vendor/qcom/opensource/usb/etc
 
+# Scudo
+PRODUCT_USE_SCUDO := true
+PRODUCT_USE_SCUDO_32_BIT := true
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
