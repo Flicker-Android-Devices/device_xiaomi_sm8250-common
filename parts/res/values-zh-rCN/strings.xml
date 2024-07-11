@@ -41,4 +41,14 @@
     <string name="hbm_mode_summary">高亮度模式允许显示面板亮度超过最大值，这有助于提高强光环境下屏幕的可见度</string>
     <string name="hbm_enable_summary_not_supported">当前内核目前不支持高亮度模式</string>
 
+     <!-- Touch Control Settings -->
+    <string name="touch_control_title">触控设置</string>
+    <string name="touch_game_mode_title">开启</string>
+    <string name="touch_response_title">跟手性</string>
+    <string name="touch_response_summary">触控滑动跟手性</string>
+    <string name="touch_sensitivity_title">灵敏度</string>
+    <string name="touch_sensitivity_summary">连续点击灵敏度</string>
+    <string name="touch_resistant_title">边缘抑制范围</string>
+    <string name="touch_resistant_summary">减少游戏过程中因手掌触碰屏幕边缘而造成的误触</string>
+
 </resources>
