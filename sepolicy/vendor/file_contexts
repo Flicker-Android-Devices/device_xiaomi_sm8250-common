@@ -18,7 +18,7 @@
 /vendor/bin/hw/vendor\.xiaomi\.hardware\.motor@1.0-service                                          u:object_r:hal_motor_default_exec:s0
 
 # CIT Display Service
-/vendor/bin/hw/vendor\.xiaomi\.hardware\.citsensorservice@1\.1-service  u:object_r:vendor_hal_citsensorservice_xiaomi_default_exec:s0
+/vendor/bin/hw/vendor\.xiaomi\.hardware\.citsensorservice@1\.1-service                              u:object_r:vendor_hal_citsensorservice_xiaomi_default_exec:s0
 
 # Charger
 /vendor/bin/batterysecret                                                                           u:object_r:vendor_batterysecret_exec:s0
@@ -30,6 +30,12 @@
 /sys/devices/platform/soc/[a-z0-9]+.qcom,mdss_mdp/drm/card([0-3])+/card([0-3])+-DSI-1/panel_info              u:object_r:vendor_sysfs_graphics:s0
 /sys/devices/platform/soc/[a-z0-9]+.qcom,mdss_mdp/drm/card([0-3])+/card([0-3])+-DSI-1/smart_fps_value         u:object_r:vendor_sysfs_graphics:s0
 /sys/devices/platform/soc/[a-z0-9]+.qcom,mdss_mdp/drm/card([0-3])+/card([0-3])+-DSI-1/thermal_hbm_disabled    u:object_r:vendor_sysfs_graphics:s0
+
+# Display Exposure
+/sys/devices/platform/soc/soc:qcom,dsi-display-primary/msm_fb_ea_enable                             u:object_r:vendor_sysfs_graphics:s0
+
+# Display HBM
+/sys/devices/platform/soc/soc:qcom,dsi-display-primary/hbm                                          u:object_r:vendor_sysfs_graphics:s0
 
 # Fingerprint
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3-service\.xiaomi                      u:object_r:hal_fingerprint_default_exec:s0
