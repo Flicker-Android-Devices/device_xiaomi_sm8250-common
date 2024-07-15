@@ -106,3 +106,9 @@ persist.sensor.                                                                 
 persist.sys.thermal.config                                                                          u:object_r:vendor_thermal_normal_prop:s0
 sys.thermal.                                                                                        u:object_r:vendor_thermal_normal_prop:s0
 vendor.sys.thermal.                                                                                 u:object_r:vendor_thermal_normal_prop:s0
+
+# Parts
+ro.input.resampling                                                                                 u:object_r:exported_system_prop:s0
+viewroot.profile_rendering                                                                          u:object_r:exported_system_prop:s0
+renderthread.skia.reduceopstasksplitting                                                            u:object_r:exported_system_prop:s0
+settingsdebug.instant.packages                                                                      u:object_r:exported_system_prop:s0
