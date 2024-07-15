@@ -48,3 +48,5 @@ binder_call(devicesettings_app, hal_touchfeature_xiaomi_default)
 
 # Allow XiaomiParts to find hal_touchfeature_xiaomi_hwservice
 allow devicesettings_app hal_touchfeature_xiaomi_hwservice:hwservice_manager find;
+
+allow devicesettings_app exported_system_prop:file read;
