@@ -19,3 +19,5 @@ allow xiaomidolby_app system_app_data_file:{ file lnk_file } create_file_perms;
 # Dolby
 allow xiaomidolby_app hal_dms_hwservice:hwservice_manager find;
 binder_call(xiaomidolby_app, hal_dms_default)
+
+allow devicesettings_app exported_system_prop:file read;
