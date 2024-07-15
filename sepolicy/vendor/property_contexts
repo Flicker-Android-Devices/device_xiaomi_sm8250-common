@@ -119,3 +119,8 @@ vendor.sys.thermal.                                                             
 
 # Misc
 persist.hydra.mem_trace	                                                                            u:object_r:exported_system_prop:s0
+
+# Parts
+ro.input.resampling                                                                                 u:object_r:exported_system_prop:s0
+viewroot.profile_rendering                                                                          u:object_r:exported_system_prop:s0
+renderthread.skia.reduceopstasksplitting                                                            u:object_r:exported_system_prop:s0
