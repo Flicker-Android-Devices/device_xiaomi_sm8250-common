@@ -361,8 +361,13 @@ endif
 # Mlipay
 ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.mlipay@1.0.vendor \
     vendor.xiaomi.hardware.mlipay@1.1.vendor \
-    vendor.xiaomi.hardware.mtdservice@1.2.vendor
+    vendor.xiaomi.hardware.mfidoca@1.0.vendor \
+    vendor.xiaomi.hardware.mtdservice@1.0.vendor \
+    vendor.xiaomi.hardware.mtdservice@1.1.vendor \
+    vendor.xiaomi.hardware.mtdservice@1.2.vendor \
+    vendor.xiaomi.hardware.mtdservice@1.3.vendor
 endif
 
 # Net
