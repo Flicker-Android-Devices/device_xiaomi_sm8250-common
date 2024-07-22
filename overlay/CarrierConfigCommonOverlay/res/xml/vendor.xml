@@ -1452,6 +1452,8 @@
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
         <boolean name="show_data_usage_toast" value="false" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国移动</string>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="fota,ims" />
@@ -1485,9 +1487,6 @@
         <boolean name="identify_high_definition_calls_in_call_log_bool" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
-        <string name="carrier_name_string">
-            China Mobile
-        </string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="true" />
@@ -1518,6 +1517,8 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_spn_override_enabled" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国联通</string>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="supl,ims" />
@@ -1533,10 +1534,6 @@
         <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
         <boolean name="config_hide_vt_callforward_option" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
-        <boolean name="carrier_name_override_bool" value="true" />
-        <string name="carrier_name_string">
-            China Unicom
-        </string>
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="config_update_volte_icon" value="true" />
@@ -1570,6 +1567,8 @@
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
         <boolean name="show_data_usage_toast" value="false" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国移动</string>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="fota,ims" />
@@ -1603,9 +1602,6 @@
         <boolean name="identify_high_definition_calls_in_call_log_bool" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
-        <string name="carrier_name_string">
-            China Mobile
-        </string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="true" />
@@ -1637,6 +1633,8 @@
         <boolean name="ascii_7_bit_support_for_long_message" value="true" />
         <boolean name="cdma_cw_cf_enabled_bool" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国电信</string>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="supl,mms" />
@@ -1696,6 +1694,8 @@
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
         <boolean name="show_data_usage_toast" value="false" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国移动</string>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="fota,ims" />
@@ -1729,9 +1729,6 @@
         <boolean name="identify_high_definition_calls_in_call_log_bool" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
-        <string name="carrier_name_string">
-            China Mobile
-        </string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="true" />
@@ -1760,6 +1757,8 @@
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国电信</string>
         <map name="apn_default_values_strings_array">
             <string name="protocol">
                 IPV4V6
@@ -1792,6 +1791,8 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="config_spn_override_enabled" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国联通</string>
         <map name="apn_default_values_strings_array">
             <string name="protocol">
                 IPV4V6
@@ -1803,10 +1804,6 @@
         <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
         <boolean name="config_hide_vt_callforward_option" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
-        <boolean name="carrier_name_override_bool" value="true" />
-        <string name="carrier_name_string">
-            China Unicom
-        </string>
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="config_update_volte_icon" value="true" />
@@ -1837,6 +1834,8 @@
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
         <boolean name="show_data_usage_toast" value="false" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国移动</string>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="fota,ims" />
@@ -1906,6 +1905,8 @@
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
         <boolean name="show_data_usage_toast" value="false" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国移动</string>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="fota,ims" />
@@ -1968,6 +1969,8 @@
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国联通</string>
         <map name="apn_default_values_strings_array">
             <string name="protocol">
                 IPV4V6
@@ -1979,10 +1982,6 @@
         <boolean name="ignore_data_enabled_changed_for_video_calls" value="true" />
         <boolean name="config_hide_vt_callforward_option" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
-        <boolean name="carrier_name_override_bool" value="true" />
-        <string name="carrier_name_string">
-            China Unicom
-        </string>
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="config_update_volte_icon" value="true" />
@@ -2005,6 +2004,8 @@
     <carrier_config mcc="460" mnc="10">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
         <boolean name="config_hide_vt_callforward_option" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国联通</string>
         <map name="apn_default_values_strings_array">
             <string name="protocol">
                 IPV4V6
@@ -2023,6 +2024,8 @@
         <boolean name="cdma_cw_cf_enabled_bool" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
         <boolean name="config_show_orig_dial_string_for_cdma" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国电信</string>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="supl,mms" />
@@ -2076,6 +2079,8 @@
         <boolean name="cdma_cw_cf_enabled_bool" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true" />
         <boolean name="config_show_orig_dial_string_for_cdma" value="true" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国电信</string>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="supl,mms" />
@@ -2121,6 +2126,8 @@
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
         <boolean name="show_data_usage_toast" value="false" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国移动</string>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="fota,ims" />
@@ -2154,9 +2161,6 @@
         <boolean name="identify_high_definition_calls_in_call_log_bool" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
-        <string name="carrier_name_string">
-            China Mobile
-        </string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="true" />
@@ -2194,6 +2198,8 @@
         <boolean name="show_video_quality_toast" value="false" />
         <boolean name="show_call_session_event_toast" value="false" />
         <boolean name="show_data_usage_toast" value="false" />
+        <boolean name="carrier_name_override_bool" value="true" />
+        <string name="carrier_name_string">中国广电</string>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="fota,ims" />
@@ -2227,9 +2233,6 @@
         <boolean name="identify_high_definition_calls_in_call_log_bool" value="true" />
         <boolean name="ignore_reset_ut_capability_bool" value="true" />
         <boolean name="carrier_parse_number_on_forward_call_bool" value="true" />
-        <string name="carrier_name_string">
-            China Broadcasting
-        </string>
         <boolean name="config_update_service_status" value="false" />
         <boolean name="support_video_conference_call_bool" value="false" />
         <boolean name="allow_add_call_during_video_call" value="false" />
@@ -3348,8 +3351,11 @@
     <carrier_config mcc="460">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
         <boolean name="carrier_5g_switch_available_bool" value="true" />
         <boolean name="carrier_sa_mode_available_bool" value="true" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false" />
         <string-array name="carrier_metered_apn_types_strings" num="3">
             <item value="default" />
             <item value="dun" />
@@ -3371,8 +3377,6 @@
         <boolean name="config_enable_video_crbt" value="true" />
         <boolean name="carrier_volte_available_bool" value="false" />
         <boolean name="carrier_vt_available_bool" value="false" />
-        <boolean name="carrier_name_override_bool" value="false" />
-        <string name="carrier_name_string" />
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type" />
             <item value="" />
