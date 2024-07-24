@@ -44,3 +44,5 @@ allow hal_mtdservice_default vendor_persist_sensors_file:dir { getattr read };
 allow hal_mtdservice_default vendor_persist_subsys_file:dir { getattr read };
 allow hal_mtdservice_default vendor_persist_time_file:dir { getattr read };
 allow hal_mtdservice_default vendor_persist_vpp_file:dir getattr;
+
+dontaudit hal_mtdservice_default self:capability { dac_override dac_read_search };
