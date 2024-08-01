@@ -355,6 +355,11 @@ PRODUCT_PACKAGES += \
     libcodec2_hidl@1.0.vendor \
     libcodec2_soft_common.vendor
 
+# Media OMX HAL
+PRODUCT_PACKAGES += \
+    android.hardware.media.omx@1.0-service \
+    libstagefright_omx.vendor
+
 # Media Config
 ifeq ($(TARGET_USES_MIUI_DOLBY),true)
 PRODUCT_COPY_FILES += \
