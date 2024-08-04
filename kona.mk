@@ -423,6 +423,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     CarrierConfigCommonOverlay \
     FrameworksCommonOverlay \
+    NetworkStackOverlayCN \
     SettingsCommonOverlay \
     SettingsProviderCommonOverlay \
     SystemUICommonOverlay \
