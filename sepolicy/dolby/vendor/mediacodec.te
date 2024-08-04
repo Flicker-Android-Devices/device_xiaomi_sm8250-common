@@ -1,2 +1,6 @@
+# Allow mediacodec services to find dms
 allow mediacodec hal_dms_hwservice:hwservice_manager find;
 allow mediacodec hal_dms_default:binder { call transfer };
+
+# Allow mediacodec services to communicate with dms
+binder_call(mediacodec, hal_dms_default)
