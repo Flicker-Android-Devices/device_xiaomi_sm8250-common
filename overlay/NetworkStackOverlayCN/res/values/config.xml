@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- HTTP URL for network validation, to use for detecting captive portals. -->
+    <string name="config_captive_portal_http_url" translatable="false">http://connect.rom.miui.com/generate_204</string>
+
+    <!-- HTTPS URL for network validation, to use for confirming internet connectivity. -->
+    <string name="config_captive_portal_https_url" translatable="false">https://connect.rom.miui.com/generate_204</string>
+
+    <!-- List of fallback URLs to use for detecting captive portals. -->
+    <string-array name="config_captive_portal_fallback_urls" translatable="false">
+        <item>https://www.gstatic.com/generate_204</item>
+        <item>https://www.qualcomm.cn/generate_204</item>
+        <item>https://cp.cloudflare.com/generate_204</item>
+    </string-array>
+</resources>
