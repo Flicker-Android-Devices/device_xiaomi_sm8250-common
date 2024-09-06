@@ -413,5 +413,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updates
+
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/common/etc/init/init.custom-updater.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.custom-updater.rc
+
+PRODUCT_SYSTEM_PROPERTIES  += \
+    net.pixelos.build_type=release \
+    net.pixelos.version=fourteen
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sm8250-common/sm8250-common-vendor.mk)
