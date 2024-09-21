@@ -308,7 +308,8 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw \
     libstagefright_softomx \
-    libstagefright_softomx.vendor
+    libstagefright_softomx.vendor \
+    libstagefright_softomx_plugin.vendor
 
 # Overlays
 PRODUCT_PACKAGES += \
