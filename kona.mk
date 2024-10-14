@@ -224,6 +224,11 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
 endif
 
+# Custom Fonts
+# MiSansVF
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/fonts/MiSansVF.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/MiSansVF.ttf
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health-service.qti
